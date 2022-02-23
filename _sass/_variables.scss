@@ -10,9 +10,16 @@ $yellow: #f4bf75;
 $green: #90a959;
 $cyan: #75b5aa;
 $blue: #268bd2;
-// $blue: #6a9fb5;
 $brown: #8f5536;
 $pink: #e74583;
+
+$profile-pic-sky: #BBD7FD;
+$profile-pic-shirt: #9F3C3A;
+$profile-pic-skin: #DAA48E;
+$profile-pic-tree: #325064;
+$profile-pic-cloud:#E6EAEB;
+$profile-pic-hair:#37241C;
+$profile-pic-mountain: #E0D1C3;
 
 $root-font-family: 'Merriweather', serif;
 // $root-font-family: 'Courier+Prime', serif;
@@ -33,26 +40,26 @@ $code-font-family: Menlo, Monaco, "Courier New", monospace;
 $code-color: #bf616a;
 
 @mixin transition($args...) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -o-transition: $args;
-  transition: $args;
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -o-transition: $args;
+    transition: $args;
 }
 
 @mixin bp-large {
-  @media only screen and (min-width: 64.063em) {
-    @content;
-  }
+    @media only screen and (min-width: 64.063em) {
+        @content;
+    }
 }
 
 @mixin bp-medium {
-  @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-    @content;
-  }
+    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+        @content;
+    }
 }
 
 @mixin bp-small {
-  @media only screen and (max-width: 40em) {
-    @content;
-  }
+    @media only screen and (max-width: 40em) {
+        @content;
+    }
 }
