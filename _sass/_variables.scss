@@ -15,6 +15,7 @@ $brown: #8f5536;
 $pink: #e74583;
 
 $root-font-family: 'Merriweather', serif;
+// $root-font-family: 'Courier+Prime', serif;
 $root-font-size: 22px;
 $root-line-height: 2;
 
@@ -28,6 +29,7 @@ $large-breakpoint: 38em;
 $large-font-size: 20px;
 
 $code-font-family: Menlo, Monaco, "Courier New", monospace;
+// $code-font-family: 'Courier+Prime', serif;
 $code-color: #bf616a;
 
 @mixin transition($args...) {
