@@ -4,7 +4,7 @@
  <title>John Provazek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-02-22T17:36:53-08:00</updated>
+ <updated>2022-02-22T20:58:28-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>John Provazek</name>
@@ -61,7 +61,7 @@
    <link href="http://localhost:4000/2019/01/01/whoisscrape/"/>
    <updated>2019-01-01T00:00:00-08:00</updated>
    <id>http://localhost:4000/2019/01/01/whoisscrape</id>
-   <content type="html">&lt;p&gt;Bash script to run the whois command on loop through a list of domain names and domain extensions.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Bash script to run the whois command on a loop through a list of domain names and domain extensions.&lt;/p&gt;
 
 &lt;p&gt;Built using Bash.&lt;/p&gt;
 </content>
