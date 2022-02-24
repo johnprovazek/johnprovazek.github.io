@@ -104,3 +104,13 @@ a:hover, a:focus {
 a{
     color: $profile-pic-tree;
 }
+
+// overwrite bio text color
+p{
+    color: #8e8e8e !important;
+}
+
+// overwrite header text color
+h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+}
