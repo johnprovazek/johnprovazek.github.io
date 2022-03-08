@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>John Provazek</title>
+ <title>johnprovazek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-02-23T20:53:52-08:00</updated>
+ <updated>2022-03-07T22:16:58-08:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>John Provazek</name>
@@ -69,11 +69,11 @@
    <link href="http://localhost:4000/2019/01/01/whoisscrape/"/>
    <updated>2019-01-01T00:00:00-08:00</updated>
    <id>http://localhost:4000/2019/01/01/whoisscrape</id>
-   <content type="html">&lt;p&gt;Bash script to run the whois command on a loop through a list of domain names and domain extensions.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Bash scripts to run the whois command on a loop through a list of domain names and domain extensions.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/johnprovazek/whoisscrape&quot;&gt;&lt;img src=&quot;../public/whoisscrape.png&quot; alt=&quot;whoisscrape&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/whoisscrape&quot;&gt;&lt;img src=&quot;../public/whoisscrape.png&quot; alt=&quot;whoisscrape&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Built using Bash.&lt;/p&gt;
+&lt;p&gt;Built using Bash scripts. A Python script for formatting data into JSON format. Project site is developed using vanilla JavaScript.&lt;/p&gt;
 </content>
  </entry>
  
