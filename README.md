@@ -2,13 +2,13 @@
 
 ## Description
 
-This is a portfolio page used to display my GitHub projects. I did not develop this website.
+This is a portfolio page used to display my GitHub projects.
 
 This project was created using a [Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.
 
 ## Installation
 
-If you would like to create a portfolio page similar to this, clone Jami Gibbs's [repo](https://github.com/jamigibbs/portfolio).
+If you would like to create a portfolio page similar to this clone Jami Gibbs's [repo](https://github.com/jamigibbs/portfolio).
 
 ## Usage
 
