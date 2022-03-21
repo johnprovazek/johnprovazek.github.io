@@ -1,24 +1,21 @@
-My site.
+# johnprovazek.github.io
 
-### Fancy using it for your own site?
+## Description
 
-Here are some steps to get you started for local development:
+This is a portfolio page used to display my GitHub projects. I did not develop this website.
 
-1. Clone this repo and cd into the directory:
+This project was created using a [Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.
 
-  `git clone https://github.com/jamigibbs/portfolio.git your-dir-name`
-  `cd your-dir-name`
+## Installation
 
-2. Run Jekyll:
+If you would like to create a portfolio page similar to this, clone Jami Gibbs's [repo](https://github.com/jamigibbs/portfolio).
+
+## Usage
+
+When testing this portfolio page locally I use the command:
 
   `bundle exec jekyll serve --watch`
 
-  _[Don't have Jekyll yet? ](http://jekyllrb.com/docs/installation/)_
+## Credits
 
-3. In your browser, navigate to:
-
-  `http://127.0.0.1:4000`
-
-### Launching with Github Pages :rocket:
-
-You can [use your own custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) or use the default Github url (ie. http://username.github.io/repository) and not bother messing around with DNS settings.
+[Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.

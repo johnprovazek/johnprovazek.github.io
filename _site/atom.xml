@@ -4,7 +4,7 @@
  <title>johnprovazek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-03-07T22:26:19-08:00</updated>
+ <updated>2022-03-20T18:37:46-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>John Provazek</name>
@@ -34,7 +34,7 @@
 
 &lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/stateparks&quot;&gt;&lt;img src=&quot;../public/stateparks.png&quot; alt=&quot;stateparks&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Built using vanilla javascript with the help of Bootstrap 5 for stylization and PageCrypt for encryption.&lt;/p&gt;
+&lt;p&gt;Built using vanilla JavaScript with the help of Bootstrap 5 for stylization and PageCrypt for encryption.&lt;/p&gt;
 </content>
  </entry>
  
@@ -43,7 +43,7 @@
    <link href="http://localhost:4000/2021/02/02/hintsandtints/"/>
    <updated>2021-02-02T00:00:00-08:00</updated>
    <id>http://localhost:4000/2021/02/02/hintsandtints</id>
-   <content type="html">&lt;p&gt;Website implementation of the board game Hues and Cues. Currently in early development.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Website implementation of the board game Hues and Cues. Currently in early stages of development.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/hintsandtints&quot;&gt;&lt;img src=&quot;../public/hintsandtints.png&quot; alt=&quot;hintsandtints&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
@@ -56,11 +56,11 @@
    <link href="http://localhost:4000/2021/01/01/nessiethegreat/"/>
    <updated>2021-01-01T00:00:00-08:00</updated>
    <id>http://localhost:4000/2021/01/01/nessiethegreat</id>
-   <content type="html">&lt;p&gt;Simple website for my friend’s band Nessie the Great.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Website for my friend’s band Nessie the Great.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/nessiethegreat&quot;&gt;&lt;img src=&quot;../public/nessiethegreat.png&quot; alt=&quot;nessiethegreat&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Built using vanilla javascript.&lt;/p&gt;
+&lt;p&gt;Built using vanilla JavaScript.&lt;/p&gt;
 </content>
  </entry>
  
@@ -82,11 +82,11 @@
    <link href="http://localhost:4000/2017/01/01/asteroids/"/>
    <updated>2017-01-01T00:00:00-08:00</updated>
    <id>http://localhost:4000/2017/01/01/asteroids</id>
-   <content type="html">&lt;p&gt;This project is a recreation and expanded upon version of the classic Atari 2600 game Asteroids. This project was developed for a computer graphics course at CSU Chico.&lt;/p&gt;
+   <content type="html">&lt;p&gt;WebGL Asteroids game I made for a computer graphics course at CSU Chico.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/asteroids&quot;&gt;&lt;img src=&quot;../public/asteroids.png&quot; alt=&quot;asteroids&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Built using vanilla javascript and WebGL.&lt;/p&gt;
+&lt;p&gt;Built using vanilla JavaScript and WebGL.&lt;/p&gt;
 </content>
  </entry>
  

@@ -5,7 +5,7 @@ git: https://github.com/johnprovazek/hintsandtints
 site: https://www.johnprovazek.com/hintsandtints
 ---
 
-Website implementation of the board game Hues and Cues. Currently in early development.
+Website implementation of the board game Hues and Cues. Currently in early stages of development.
 
 [![hintsandtints](../public/hintsandtints.png)](https://www.johnprovazek.com/hintsandtints)
 
