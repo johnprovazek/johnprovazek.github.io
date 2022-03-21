@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a portfolio page used to display my GitHub projects.
+This is a portfolio page used to display my GitHub projects. My portfolio can be accessed at [johnprovazek.com](https://www.johnprovazek.com/).
 
 This project was created using a [Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.
 
