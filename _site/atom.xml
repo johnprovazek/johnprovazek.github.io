@@ -4,7 +4,7 @@
  <title>johnprovazek</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-04-04T15:20:12-07:00</updated>
+ <updated>2022-05-23T00:01:11-07:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>John Provazek</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>spotifycoasters</title>
-   <link href="http://localhost:4000/2021/05/05/spotifycoasters/"/>
-   <updated>2021-05-05T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2021/05/05/spotifycoasters</id>
+   <link href="http://localhost:4000/2021/06/06/spotifycoasters/"/>
+   <updated>2021-06-06T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2021/06/06/spotifycoasters</id>
    <content type="html">&lt;p&gt;NFC embedded coasters that will play albums and playlists on Spotify when read by a NFC reader.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/johnprovazek/spotifycoasters&quot;&gt;&lt;img src=&quot;../public/spotifycoasters.png&quot; alt=&quot;spotifycoasters&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -27,14 +27,27 @@
  
  <entry>
    <title>truchettiles</title>
-   <link href="http://localhost:4000/2021/04/04/truchettiles/"/>
-   <updated>2021-04-04T00:00:00-07:00</updated>
-   <id>http://localhost:4000/2021/04/04/truchettiles</id>
-   <content type="html">&lt;p&gt;Interactive truchet tiles background&lt;/p&gt;
+   <link href="http://localhost:4000/2021/05/05/truchettiles/"/>
+   <updated>2021-05-05T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2021/05/05/truchettiles</id>
+   <content type="html">&lt;p&gt;Interactive truchet tiles background.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/truchettiles&quot;&gt;&lt;img src=&quot;../public/truchettiles.png&quot; alt=&quot;truchettiles&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Built using vanilla JavaScript utilizing the canvas element.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>mlbstandings</title>
+   <link href="http://localhost:4000/2021/04/04/mlbstandings/"/>
+   <updated>2021-04-04T00:00:00-07:00</updated>
+   <id>http://localhost:4000/2021/04/04/mlbstandings</id>
+   <content type="html">&lt;p&gt;Website to graph the changes in MLB division standings throughout a season.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.johnprovazek.com/mlbstandings&quot;&gt;&lt;img src=&quot;../public/mlbstandings.png&quot; alt=&quot;mlbstandings&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Built using React, Google Charts, and Google Firestore. A Python script running in Google Cloud Functions is used to gather the current MLB standings data.&lt;/p&gt;
 </content>
  </entry>
  

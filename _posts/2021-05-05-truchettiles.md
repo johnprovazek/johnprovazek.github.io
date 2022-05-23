@@ -5,7 +5,7 @@ git: https://github.com/johnprovazek/truchettiles
 site: https://www.johnprovazek.com/truchettiles
 ---
 
-Interactive truchet tiles background 
+Interactive truchet tiles background.
 
 [![truchettiles](../public/truchettiles.png)](https://www.johnprovazek.com/truchettiles)
 
