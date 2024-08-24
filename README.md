@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple portfolio page showcasing GitHub projects. You can access this portfolio page at [johnprovazek.com](https://www.johnprovazek.com/stateparks/).
+This project is a simple portfolio page showcasing GitHub projects. You can access this portfolio page at [johnprovazek.com](https://www.johnprovazek.com/).
 
 Built using React, Material UI, Vite, Firebase, and Python.
 
