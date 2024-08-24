@@ -2,20 +2,20 @@
 
 ## Description
 
-This is a portfolio page used to display my GitHub projects. My portfolio can be accessed at [johnprovazek.com](https://www.johnprovazek.com/).
+This project is a simple portfolio page showcasing GitHub projects. You can access this portfolio page at [johnprovazek.com](https://www.johnprovazek.com/stateparks/).
 
-This project was created using a [Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.
+Built using React, Material UI, Vite, Firebase, and Python.
 
-## Installation
+<div align="center">
+  <picture>
+    <img src="https://repository-images.githubusercontent.com/184189380/84536c12-850e-4155-9289-ded80245bb25" width="830px">
+  </picture>
+</div>
 
-If you would like to create a portfolio page similar to this clone Jami Gibbs's [repo](https://github.com/jamigibbs/portfolio).
+## Design
 
-## Usage
+This project is designed with a Firebase Firestore database storing the details of each GitHub project. This Firestore database is updated from a Python script utilizing the GitHub API. This pattern allows the portfolio content to stay up to date without having to continually make updates to this repository. It also ensures the content on this portfolio page stays aligned with the content found in each GitHub project.
 
-When testing this portfolio page locally I use the command:
+## Bugs & Improvements
 
-  `bundle exec jekyll serve --watch`
-
-## Credits
-
-[Jeykll template](https://github.com/jamigibbs/portfolio) developed by Jami Gibbs.
+- Add cursor tracker and sprite sheet logic to animate the avatar looking at cursor.

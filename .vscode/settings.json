@@ -1,0 +1,30 @@
+{
+  "pylint.args": ["--rcfile=scripts/.pylintrc"],
+  "cSpell.words": [
+    "appspot",
+    "Azeret",
+    "dateutil",
+    "epochdate",
+    "FBCT",
+    "firebaseapp",
+    "firestore",
+    "fontsource",
+    "geologica",
+    "hiithelpers",
+    "johnprovazek",
+    "mlbstandings",
+    "nessiethegreat",
+    "noarchive",
+    "offwhite",
+    "Provazek",
+    "roboto",
+    "soccerballs",
+    "spotifycoasters",
+    "stateparks",
+    "Trqc",
+    "truchettiles",
+    "updatedate",
+    "valuetales",
+    "whoisscrape"
+  ]
+}

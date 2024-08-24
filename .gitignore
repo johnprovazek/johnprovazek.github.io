@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production
+/build
+/dist
+
+# local development
+/local-dev
+
+# authentication
+scripts/config.json
+scripts/serviceAccountKey.json
+
+# debug
+src/assets/images/debug
+
