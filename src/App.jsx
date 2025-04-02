@@ -1,4 +1,4 @@
-import HomePage from "./pages/home/home.jsx";
+import HomePage from "./pages/HomePage/HomePage.jsx";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme, responsiveFontSizes } from "@mui/material/styles";
 

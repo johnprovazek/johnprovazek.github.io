@@ -1,12 +1,17 @@
-import Stack from "@mui/material/Stack";
+import EmailIcon from "@mui/icons-material/Email";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import IconButton from "@mui/material/IconButton";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
+import Stack from "@mui/material/Stack";
 
-const Social = () => {
+const SocialLinks = ({ visible = true }) => {
   return (
-    <Stack alignItems="center" justifyContent="center" direction="row">
+    <Stack
+      alignItems="center"
+      justifyContent="center"
+      direction="row"
+      sx={{ mb: 1, visibility: visible ? "visible" : "hidden" }}
+    >
       <IconButton href="https://www.linkedin.com/in/johnprovazek/">
         <LinkedInIcon />
       </IconButton>
@@ -20,4 +25,4 @@ const Social = () => {
   );
 };
 
-export default Social;
+export default SocialLinks;

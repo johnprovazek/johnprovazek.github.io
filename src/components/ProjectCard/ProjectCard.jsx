@@ -1,18 +1,25 @@
 import { useState } from "react";
-import Typography from "@mui/material/Typography";
-import Stack from "@mui/material/Stack";
-import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import CardHeader from "@mui/material/CardHeader";
-import IconButton from "@mui/material/IconButton";
-import CardActionArea from "@mui/material/CardActionArea";
+import CircularProgress from "@mui/material/CircularProgress";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import IconButton from "@mui/material/IconButton";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
+import BrokenImage from "../../assets/images/broken-image.png";
 
-const Project = ({ details }) => {
+const ProjectCard = ({
+  homepage = "https://en.wikipedia.org/wiki/Missing_link_(human_evolution)",
+  github = "https://en.wikipedia.org/wiki/Missing_link_(human_evolution)",
+  name = "missing title",
+  description = "missing description",
+  image = BrokenImage,
+  tech = "missing technology stack info",
+}) => {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
@@ -20,21 +27,21 @@ const Project = ({ details }) => {
       <CardHeader
         action={
           <Stack direction="row">
-            {details.homepage !== "" && (
-              <IconButton href={details.homepage} aria-label="homepage-button">
+            {homepage !== "" && (
+              <IconButton href={homepage} aria-label="homepage-button">
                 <OpenInNewIcon />
               </IconButton>
             )}
-            <IconButton href={details.github} aria-label="github-button">
+            <IconButton href={github} aria-label="github-button">
               <GitHubIcon />
             </IconButton>
           </Stack>
         }
-        title={details.name}
+        title={name}
       />
       <CardContent>
         <Typography color="text.secondary" sx={{ pb: 2 }}>
-          {details.description}
+          {description}
         </Typography>
         <Box sx={{ pb: 2 }}>
           <Box
@@ -51,20 +58,18 @@ const Project = ({ details }) => {
           >
             <CircularProgress />
           </Box>
-          <CardActionArea href={details.homepage !== "" ? details.homepage : details.github}>
-            <CardMedia
-              component="img"
-              alt="repo-image"
-              image={details.image}
-              onLoad={() => setImageLoaded(true)}
-              sx={{ display: imageLoaded ? "block" : "none", borderRadius: 1 }}
-            />
-          </CardActionArea>
+          <CardMedia
+            component="img"
+            alt="repo-image"
+            image={image}
+            onLoad={() => setImageLoaded(true)}
+            sx={{ display: imageLoaded ? "block" : "none", borderRadius: 1 }}
+          />
         </Box>
-        <Typography color="text.secondary">{details.tech}</Typography>
+        <Typography color="text.secondary">{tech}</Typography>
       </CardContent>
     </Card>
   );
 };
 
-export default Project;
+export default ProjectCard;

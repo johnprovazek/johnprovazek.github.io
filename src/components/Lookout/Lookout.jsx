@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import Box from "@mui/material/Box";
-import SpriteSheet from "../../assets/images/sprite_sheet.png";
+import SpriteSheet from "../../assets/images/sprite-sheet.png";
 
 const lookoutSize = 85;
 const lookoutAngle = 15;
@@ -43,23 +43,21 @@ const Lookout = () => {
   };
 
   return (
-    <>
-      <Box
-        onClick={blink}
-        ref={lookoutRef}
-        sx={{
-          cursor: spriteIndex == lookoutLayers * lookoutFrames ? "pointer" : "default",
-          height: lookoutSize,
-          width: lookoutSize,
-          margin: "auto",
-          backgroundImage: `url(${SpriteSheet})`,
-          backgroundSize: lookoutSize * 10,
-          backgroundPositionX: `-${lookoutSize * (spriteIndex % 10)}px`,
-          backgroundPositionY: `-${lookoutSize * Math.floor(spriteIndex / 10)}px`,
-          "-webkit-tap-highlight-color": "transparent",
-        }}
-      />
-    </>
+    <Box
+      onClick={blink}
+      ref={lookoutRef}
+      sx={{
+        cursor: spriteIndex == lookoutLayers * lookoutFrames ? "pointer" : "default",
+        height: lookoutSize,
+        width: lookoutSize,
+        margin: "auto",
+        backgroundImage: `url(${SpriteSheet})`,
+        backgroundSize: lookoutSize * 10,
+        backgroundPositionX: `-${lookoutSize * (spriteIndex % 10)}px`,
+        backgroundPositionY: `-${lookoutSize * Math.floor(spriteIndex / 10)}px`,
+        "-webkit-tap-highlight-color": "transparent",
+      }}
+    />
   );
 };
 
